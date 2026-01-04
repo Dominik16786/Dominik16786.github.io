@@ -13,6 +13,8 @@
       <a class="logo" href="#top">Dominik167786</a>
       <ul class="nav-list">
         <li><a href="#top">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -20,78 +22,95 @@
   </header>
 
   <main id="top">
+    <!-- Hero -->
     <section class="hero container">
       <div class="hero-inner">
+        <img src="img/me.jpg" alt="Dominik Papaj" class="profile-img">
         <h1>Hello — I'm <span class="accent">Dominik</span></h1>
         <p class="lead">
-          Computer Physics student at AGH University. I love exploring new ideas and turning them into working code — from physics simulations and ML/AI experiments to 
-          small games and automation projects. Always eager to learn new technologies, improve my skills, and tackle challenging problems. Outside of coding, 
-          I enjoy sports, staying active, and exploring the outdoors.
+          Computer Physics student at AGH University. I combine physics knowledge with programming skills to build simulations, AI experiments, and data analysis projects. Always eager to learn and tackle challenging problems.
         </p>
         <a class="btn" href="#projects">See my projects</a>
+        <a class="btn" href="pdf/cv.pdf" download>Download CV</a>
       </div>
     </section>
 
+  <!-- About Me -->
+  <section id="about" class="about container">
+    <h2>About Me</h2>
+    <p>
+      I'm a 3rd-year student of Computer Physics at AGH University, passionate about combining physics, mathematics, and programming. 
+      I enjoy building simulations, optimization algorithms, ML/AI models, and automating workflows. 
+      I'm currently looking for opportunities in IT, software development, testing, QA, AI, ML, and data-related roles. 
+      In my free time, I stay active through sports and outdoor activities, which helps me stay focused and creative.
+    </p>
+  </section>
+
+<!-- Skills -->
+    <section id="skills" class="skills container">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li><strong>Programming:</strong> Python, Java, C/C++</li>
+        <li><strong>Data & ML:</strong> NumPy, pandas, scikit-learn, PyTorch, LLMs, evolutionary algorithms</li>
+        <li><strong>Web & Backend:</strong> Django, HTML, CSS, SQL</li>
+        <li><strong>Tools:</strong> Git, Linux, Docker, LaTeX, CapCut</li>
+        <li><strong>Other:</strong> Simulation, numerical methods, data visualization</li>
+      </ul>
+    </section>
+
+    </section>
+
+    <!-- Projects -->
     <section id="projects" class="projects container">
       <h2>Projects</h2>
       <p class="section-sub">Click a card to open the repository.</p>
-
       <div class="project-grid">
 
-        <article class="project-card" style="--i:0">
-            <h3>Mini Banking System</h3>
-            <p class="proj-desc">A console‑based banking simulator in C++ allowing account creation, login and basic transactions like deposit, withdraw and transfer. Demonstrates core OOP and CLI coding skills.</p>
-            <p class="tech">Tech: C++</p>
-            <div class="proj-links">
-                <a href="https://github.com/Dominik16786/mini-banking" target="_blank">Repository</a>
-             </div>
-        </article>
+        
 
         <article class="project-card" style="--i:1">
-            <h3>DEuLLM — Enhanced ALSHADE</h3>
-            <p class="proj-desc">Differential Evolution variant designed using LLMs (ChatGPT) combined with enhanced ALSHADE for GNBG benchmark optimization. Developed as part of GECCO 2025 COMP CLEA Competition.</p>
-            <p class="tech">Tech: MATLAB, Evolutionary Algorithms, LLM-driven design</p>
-            <div class="proj-links">
-                 <a href="https://github.com/Dominik16786/DEuLLM-Enhanced-ALSHADE" target="_blank" rel="noopener">Repository</a>
-            </div>
+          <h3>DEuLLM — Enhanced ALSHADE</h3>
+          <p class="proj-desc">Differential Evolution variant designed using LLMs combined with ALSHADE for GNBG benchmark optimization. Part of GECCO 2025 COMP CLEA Competition.</p>
+          <p class="tech">Tech: MATLAB, Evolutionary Algorithms, LLM-driven design</p>
+          <div class="proj-links">
+            <a href="https://github.com/Dominik16786/DEuLLM-Enhanced-ALSHADE" target="_blank" rel="noopener">Repository</a>
+          </div>
         </article>
 
         <article class="project-card" style="--i:2">
           <h3>Urban Green Areas Analysis</h3>
-          <p class="proj-desc">
-          Mini-project focused on image-based analysis of urban green areas, comparing vegetation coverage in Busko-Zdrój and Kraków.
-          The project explores basic segmentation and visual analysis techniques applied to satellite imagery.
-          </p>
+          <p class="proj-desc">Image-based analysis of urban green areas in Busko-Zdrój and Kraków using basic segmentation and visualization techniques.</p>
           <p class="tech">Tech: Python, Jupyter Notebook, Image Processing</p>
-        <div class="proj-links">
-              <a href="https://github.com/Dominik16786/green-areas-analysis-busko-krakow"
-              target="_blank" rel="noopener">Repository</a>
-        </div>
-</article>
+          <div class="proj-links">
+            <a href="https://github.com/Dominik16786/green-areas-analysis-busko-krakow" target="_blank" rel="noopener">Repository</a>
+          </div>
+        </article>
 
-<article class="project-card" style="--i:3">
-  <h3>Projectile Motion Simulation with Drag</h3>
-  <p class="proj-desc">
-    A simulation that visualizes projectile trajectories affected by air drag and variable
-    air density. Compare different launch angles and see which gives the greatest range.
-  </p>
-  <p class="tech">Tech: C/C++, Python</p>
-        <div class="proj-links">
-              <a href="https://github.com/Dominik16786/projectile-motion-simulation-with-drag.git"
-              target="_blank" rel="noopener">Repository</a>
-        </div>
-</article>
+        <article class="project-card" style="--i:3">
+          <h3>Projectile Motion Simulation with Drag</h3>
+          <p class="proj-desc">Simulation of projectile trajectories with air drag and variable density. Compare launch angles and see optimal ranges.</p>
+          <p class="tech">Tech: C/C++, Python</p>
+          <div class="proj-links">
+            <a href="https://github.com/Dominik16786/projectile-motion-simulation-with-drag" target="_blank" rel="noopener">Repository</a>
+          </div>
+        </article>
 
+        <article class="project-card" style="--i:0">
+          <h3>Mini Banking System</h3>
+          <p class="proj-desc">A console‑based banking simulator in C++ with account creation, login, and basic transactions. Demonstrates core OOP and CLI coding skills.</p>
+          <p class="tech">Tech: C++</p>
+          <div class="proj-links">
+            <a href="https://github.com/Dominik16786/mini-banking" target="_blank">Repository</a>
+          </div>
+        </article>
 
-
-
-       
       </div>
     </section>
 
+    <!-- Contact -->
     <section id="contact" class="contact container">
       <h2>Contact</h2>
-      <p class="section-sub">Reach out — I'm open for collaboration, internships and interesting projects.</p>
+      <p class="section-sub">Reach out — I'm open for collaboration, internships, and interesting projects.</p>
       <div class="contact-links">
         <a href="https://www.linkedin.com/in/dominikpapaj/" target="_blank" rel="noopener">LinkedIn</a>
         <a href="mailto:youremail@example.com">Email</a>

@@ -83,3 +83,27 @@ h1{font-size:2.1rem;margin-bottom:12px}
   .hero{padding:48px 0}
   .nav-list{gap:12px;font-size:.95rem}
 }
+
+/* ===== About ===== */
+.about{padding:40px 0;text-align:center}
+.about h2{color:var(--accent);text-align:center;font-size:1.5rem;margin-bottom:12px}
+.about p{max-width:720px;margin:0 auto;font-size:1rem;color:#d0d0d0}
+
+/* ===== Skills ===== */
+.skills{padding:40px 0;text-align:center}
+.skills h2{color:var(--accent);font-size:1.5rem;margin-bottom:12px}
+.skills-list{list-style:none;display:flex;flex-wrap:wrap;justify-content:center;gap:16px}
+.skills-list li{background:var(--card);padding:8px 14px;border-radius:12px;color:#d0d0d0;font-weight:500;transition:transform .2s,box-shadow .2s}
+.skills-list li:hover{transform:translateY(-3px);box-shadow:0 8px 18px rgba(0,0,0,0.5)}
+
+.profile-img{
+  width:220px;
+  height:220px;
+  border-radius:20px; /* ← NIE kółko */
+  object-fit:cover;
+
+  margin-bottom:28px;
+
+  border:1px solid rgba(255,255,255,0.08);
+  box-shadow:0 12px 40px rgba(0,0,0,0.75);
+}
